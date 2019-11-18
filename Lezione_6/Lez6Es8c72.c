@@ -1,3 +1,4 @@
+//Esercizio NON funzionante!
 #include <stdio.h>
 
 #define rw 4
