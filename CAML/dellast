@@ -1,0 +1,7 @@
+Data una lista vogliamo scrivere una funzione CAML che elimina l'ultimo elemento di una lista
+
+let rec dellast l=
+        if Tl l = []
+			then []
+		else  hd l::dellast ( Tl l);;
+		

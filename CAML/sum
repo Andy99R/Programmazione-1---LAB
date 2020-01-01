@@ -1,0 +1,5 @@
+Data una lista vogliamo scrivere una funzione CAML che somma tutti gli elementi di una lista
+
+let rec sum l=
+         if l = [] then 0
+		 else sum(tl l)+hd l;;

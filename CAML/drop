@@ -1,0 +1,7 @@
+Data una lista vogliamo scrivere una funzione CAML cancella i primi n elementi
+
+let rec drop n l =
+                match (n,l) with
+				(0,l1) -> l
+				|(n,[]) when n>0 ->[]
+				|(n,x::xs) when n>0 -> drop (n-1) xs;;

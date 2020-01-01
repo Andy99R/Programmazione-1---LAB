@@ -1,0 +1,7 @@
+let rec minmax l = 
+				match l with
+				[x] - (x,x)
+				| x::y:::ys -> let (m1,m2) = minmax(y::ys)
+								in if x<m1 then (x,m2)
+								   else if x>m2 then (m1,x)
+								  else (m1,m2);;

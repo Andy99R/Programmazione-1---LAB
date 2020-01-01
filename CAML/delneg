@@ -1,0 +1,6 @@
+Data una lista vogliamo scrivere una funzione CAML cancella tutti gli elementi negativi di una
+
+let rec delneg l = 
+				if l= [] then []
+				else if hd l < 0 then delneg(tl l)
+						else hd l::delneg(tl l);;
